@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0px;
@@ -5,4 +7,130 @@
 
 body {
     background-color: brown;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    background-color: rgba(250, 235, 215, 0.188);
+    flex-direction: column;
+    padding: 0 25px;
+    justify-content: center;
+    row-gap: 15px;
+    width: 30%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+main h1 {
+    color: #f0f8ff;
+    font-family: 'Dosis', sans-serif;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 15px 12px;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    background-color: #f5f5dc29;
+    flex-direction: column;
+    row-gap: 70px;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+    padding: 0 25px;
+}
+
+div input {
+    width: 80%;
+    height: 50px;
+}
+
+div input:focus {
+    background-color: blanchedalmond;
+    outline: none;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+div legend {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    padding: 0 13px;
+    letter-spacing: 1.2px;   
+}
+
+fieldset {
+    border-color: #ffffff;
+    padding: 15px 8px;
+    height: auto;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    background-color: aqua;
+}
+
+main button{
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+@media screen and (max-width: 390px){
+    
+    .title {
+        display: flex;
+        background-color: rgba(250, 235, 215, 0.188);
+        flex-direction: column;
+        padding: 0 25px;
+        justify-content: center;
+        row-gap: 15px;
+        width: 80%;
+        border-radius: 15px;
+        height: 250px;
+    }
+    
+    div input {
+        width: 100%;
+        height: 50px;
+    }
+    
+    .content {
+        display: flex;
+        background-color: #f5f5dc29;
+        flex-direction: column;
+        row-gap: 70px;
+        justify-content: center;
+        font-family: sans-serif;
+        width: 80%;
+        height: 450px;
+        border-radius: 15px;
+        padding: 0 25px;
+    }
 }

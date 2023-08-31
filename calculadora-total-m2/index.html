@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora | Total metros quadrados</title>
 </head>
 <body>
     <main class="main-container">
+        <div class="title">
+            <h1>Calculadora para metro quadrados (m²)</h1>
+            <hr>            
+            <p>Esta calculadora de metros quadrados m2 realiza o cálculo para encontrar os metros quadrados de área como uma parede, quarto, terreno, sala...</p>
+        </div>
         
         <div class="content">
-
+            <fieldset>
+                <legend>Comprimento/profundidade</legend>
+                    <input type="number" placeholder="comprimento ou profundidade da área m²">
+            </fieldset>
+            <fieldset>      
+                <legend>Largura</legend>
+                    <input type="number" placeholder="largura da área m²">
+            </fieldset> 
+            <div class="container-buttons">
+                <button>Calcular</button>
+                <button>Limpar</button>
+            </div> 
+            
         </div>
 
     </main>
