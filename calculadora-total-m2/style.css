@@ -96,7 +96,10 @@ fieldset {
 }
 
 .resultado {
-    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.3em;
     color: #ffffff;
 }
 

@@ -1,8 +1,5 @@
 
-const btnResult = document.querySelector('.btn-calc');
-
-
-btnResult.addEventListener('click',function(){
+function calcular(){
     let compr = document.querySelector('.comprimento').value;
     let larg = document.querySelector('.largura').value;
     
@@ -12,5 +9,8 @@ btnResult.addEventListener('click',function(){
 
     console.log(calc)
 
-    showResult.innerHTML = `${calc} m²`;
-});
+    showResult.innerHTML = `Total de: ${calc.toFixed(2)} m²`;
+};
+
+
+
