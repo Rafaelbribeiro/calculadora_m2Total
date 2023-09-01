@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Calculadora | Total metros quadrados</title>
 </head>
 <body>
@@ -17,16 +18,17 @@
         <div class="content">
             <fieldset>
                 <legend>Comprimento/profundidade</legend>
-                    <input type="number" placeholder="comprimento ou profundidade da área m²">
+                    <input class="comprimento" type="number" placeholder="comprimento ou profundidade da área m²">
             </fieldset>
             <fieldset>      
                 <legend>Largura</legend>
-                    <input type="number" placeholder="largura da área m²">
+                    <input class="largura" type="number" placeholder="largura da área m²">
             </fieldset> 
             <div class="container-buttons">
-                <button>Calcular</button>
+                <button class="'btn-calc">Calcular</button>
                 <button>Limpar</button>
-            </div> 
+            </div>
+            <div class="resultado"></div> 
             
         </div>
 

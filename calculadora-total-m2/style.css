@@ -54,9 +54,10 @@ main p {
     justify-content: center;
     font-family: sans-serif;
     width: 30%;
-    height: 450px;
+    height: 550px;
     border-radius: 15px;
     padding: 0 25px;
+    
 }
 
 div input {
@@ -85,13 +86,18 @@ fieldset {
     border-color: #ffffff;
     padding: 15px 8px;
     height: auto;
+    
 }
 
 .container-buttons{
     display: flex;
     justify-content: center;
     column-gap: 15px;
+}
+
+.resultado {
     background-color: aqua;
+    color: #ffffff;
 }
 
 main button{
