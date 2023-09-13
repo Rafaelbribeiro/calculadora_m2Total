@@ -10,7 +10,17 @@ function calcular(){
     console.log(calc)
 
     showResult.innerHTML = `Total de: ${calc.toFixed(2)} m²`;
+    
 };
+
+
+function limparArea(){
+    
+    const spaceResult = document.querySelector('.resultado');
+
+    spaceResult.innerHTML = '';
+
+}
 
 
 
